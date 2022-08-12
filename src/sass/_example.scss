@@ -39,6 +39,9 @@
 input{
   margin-right: 20px;
 }
+.search-btn{
+  cursor: pointer;
+}
 
 
 .gallery{
@@ -61,4 +64,14 @@ input{
   opacity:0;
   visibility: hidden;
   pointer-events: none;
+}
+.load-more{
+  cursor: pointer;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkblue;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
 }
